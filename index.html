@@ -41,7 +41,7 @@
       </div>
     </div>
   </nav>
-  <div class="container">
+  <div id = "novo" class="container">
     <p class="vermelho">
       Página Inicial
     </p>
@@ -56,8 +56,11 @@
       crossorigin="anonymous"
     ></script>
     <script lang="text/javascript">
-      $( "p" ).removeClass( "vermelho" ).addClass( "azul" );
-      $("p").html("Novo Texto para Front-end");
+       $( "p" ).delay( 2800 ).removeClass( "vermelho" ).addClass( "azul" );
+       $("p").html("Novo Texto para Front-end").delay( 800 );
+       $("#novo").html(" <p class='vermelho'> aula de reforço </p> " ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+       $(".novo").html(" <p class='vermelho'> aula de reforço </p> " ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+        
     </script>
     
   </body>
