@@ -1,14 +1,20 @@
 .degrade-ifms {
-  background: rgb(0, 164, 11);
+  background: rgba(129, 4, 4, 0);
   background: linear-gradient(
     180deg,
-    rgba(0, 164, 11, 1) 0%,
-    rgba(191, 238, 145, 1) 100%
+    rgb(221, 39, 69) 0%,
+    rgb(70, 31, 31) 100%
   );
 }
-.vermelho{
-  color: crimson;
-}
 .azul{
-  color: rgb(3, 58, 92);
+  color: rgb(51, 222, 245);
+}
+.verde{
+  color: rgb(64, 248, 156);
+}
+.text-justify{
+  text-align: justify;
+}
+.primeira-linha{
+  text-indent: 2em;
 }
